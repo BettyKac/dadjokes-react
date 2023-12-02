@@ -1,0 +1,21 @@
+.button-background {
+  background-size: cover; 
+  background-position: center; 
+  width: 120px;
+  height: 80px;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  padding-top: 15px;
+
+}
+.button-link {
+  font-size: 1.7em;
+  padding-bottom: 10px;
+  text-decoration: none;
+  color: black;
+}
+
+.button-background:hover {
+  opacity: 70%;
+}

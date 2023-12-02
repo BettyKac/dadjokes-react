@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'VT323', monospace;
+  height: 100%;
+  background-attachment: fixed;
+  overflow: hidden;
+
+}
+
+body {
+  background-image: url(./pages/FieldPick/img/backdrop.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+#app {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
